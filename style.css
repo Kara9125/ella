@@ -17,7 +17,8 @@ body{
 }
 
 .navbar-fixed-top{
-	background-color: #E5FFFF;
+	/*background-color: #E5FFFF;*/
+	background-color: white;
 }
 
 #name{
@@ -28,7 +29,7 @@ body{
 }
 
 #contact-link{
-	color: ;
+	color: #91FFFF;
     text-decoration: none;
     font-size: 30px;
     text-align: left;
@@ -37,6 +38,7 @@ body{
 }
 
 #art{
+	color: #91FFFF;
 	text-decoration: none;
 	padding-right: 30px;
 	font-size: 30px;

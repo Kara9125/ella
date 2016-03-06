@@ -1,0 +1,55 @@
+/*@font-face {
+    font-family: 'qokijoregular';
+    src: url('/font/qokijo-webfont.eot');
+    src: url('/font/qokijo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/qokijo-webfont.woff2') format('woff2'),
+         url('/font/qokijo-webfont.woff') format('woff'),
+         url('/font/qokijo-webfont.ttf') format('truetype'),
+         url('/font/qokijo-webfont.svg#qokijoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
+
+
+body{
+	font-family: 'Londrina Sketch', cursive;
+}
+
+.navbar-fixed-top{
+	background-color: #E5FFFF;
+}
+
+#name{
+	color: purple;
+	text-decoration: none;
+	font-size: 65px;
+	font-weight: bold;
+}
+
+#contact-link{
+	color: ;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+#art{
+	text-decoration: none;
+	padding-right: 30px;
+	font-size: 30px;
+	text-align: left;
+	font-weight: bold;
+}
+
+.nav_container{
+	margin-left: 50px;
+}
+
+#text{
+	font-family: 'Waiting for the Sunrise';
+	font-size: 18px;
+	font-weight: bold;
+}

@@ -21,13 +21,18 @@
 
     <link href='https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise' rel='stylesheet' type='text/css'>
 
+    <!-- jquery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- script.js -->
+    <script src="app.js"></script>
+
+    <script>
+        $( function()
+        {
+            $( 'a' ).imageLightbox();
+        });
+    </script>
 
   </head>
 
@@ -60,13 +65,29 @@
       Art
     </div>
     <br>
-    <br>  
-        <p class="text">
-          Lorem Khaled Ipsum is a major key to success. A major key, never panic. Don’t panic, when it gets crazy and rough, don’t panic, stay calm. Find peace, life is like a water fall, you’ve gotta flow. We the best. Put it this way, it took me twenty five years to get these plants, twenty five years of blood sweat and tears, and I’m never giving up, I’m just getting started. The key to success is to keep your head above the water, never give up. The ladies always say Khaled you smell good, I use no cologne. Cocoa butter is the key.
-
-          Major key, don’t fall for the trap, stay focused. It’s the ones closest to you that want to see you fail. To succeed you must believe. When you believe, you will succeed. Lion! Surround yourself with angels. Hammock talk come soon. Congratulations, you played yourself. Mogul talk. We the best. You do know, you do know that they don’t want you to have lunch. I’m keeping it real with you, so what you going do is have lunch. We don’t see them, we will never see them.
-        </p>
-
+    <br>
+    <div class="col-sm-12 text-center">
+      <div class="col-sm-3 col-xs-12">
+        <a href="images/one.png" data-imagelightbox="g" id="link_image1" class="img-thumbnail">
+          <img src="images/one.png" class="img-thumbnail">
+        </a>
+      </div>
+      <div class="col-sm-3 col-xs-12">
+        <a href="images/five.png" data-imagelightbox="g" id="link_image1" class="img-thumbnail">
+          <img src="images/five.png" class="img-thumbnail">
+        </a>
+      </div>
+      <div class="col-sm-3 col-xs-12">
+        <a href="images/three.png" data-imagelightbox="g" id="link_image1" class="img-thumbnail">
+          <img src="images/three.png" class="img-thumbnail">
+        </a>
+      </div>
+      <div class="col-sm-3 col-xs-12">
+        <a href="images/four.png" data-imagelightbox="g" id="link_image1" class="img-thumbnail">
+          <img src="images/four.png" class="img-thumbnail">
+        </a>
+      </div>
+    </div>
         
       
   </div>

@@ -29,7 +29,7 @@ body{
 }
 
 #contact-link{
-	color: #91FFFF;
+	color: #7EDEDE;
     text-decoration: none;
     font-size: 30px;
     text-align: left;
@@ -38,7 +38,7 @@ body{
 }
 
 #art{
-	color: #91FFFF;
+	color: #7EDEDE;
 	text-decoration: none;
 	padding-right: 30px;
 	font-size: 30px;
@@ -54,8 +54,30 @@ body{
 	font-size: 18px;
 }
 
+#container
+{
+	width: 41.25em; /* 660 */
+	text-align: center;
+	padding: 0 1.25em; /* 20 */
+	margin: 3.125em auto 6.25em; /* 50 100 */
+}
+
+#imagelightbox
+{
+    position: fixed;
+    z-index: 9999;
+ 
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
 #work{
 	font-family: 'Waiting for the Sunrise';
 	font-size: 25px;
 	font-weight: bold;
 }
+
+.contact{
+	font-weight: bold;
+	font-family: 'Waiting for the Sunrise';
+} 
